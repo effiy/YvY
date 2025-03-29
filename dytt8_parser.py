@@ -77,7 +77,12 @@ def parse_dytt8_data(file_paths=None):
     # 构建处理管道
     pipeline = Pipeline(max_runs_per_component=5)
     pipeline.add_component("prompt_builder", ChatPromptBuilder(template=prompt_template))
-    pipeline.add_component("generator", OllamaChatGenerator())
+    pipeline.add_component("generator", OllamaChatGenerator(
+        generation_kwargs={
+            "num_predict": 20000,  # 设置最大输出令牌数
+            "temperature": 0.6,   # 降低温度以获得更确定性的输出
+        }
+    ))
     
     # 设置组件连接
     pipeline.connect("prompt_builder.prompt", "generator.messages")
