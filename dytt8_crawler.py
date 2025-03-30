@@ -4,7 +4,7 @@ import json
 import os
 from datetime import datetime
 from dataclasses import dataclass
-from typing import List, Set, Dict, Any, Optional
+from typing import List, Set, Dict, Any
 from crawl4ai import AsyncWebCrawler
 import logging
 
