@@ -22,9 +22,9 @@ class MovieLink:
     line_number: int
 
 class MovieCrawler:
-    def __init__(self, base_url: str = "https://www.dytt8.com"):
+    def __init__(self, base_url: str = "https://www.dytt8.com", output_dir: str = "docs/dytt8"):
         self.base_url = base_url
-        self.output_dir = "docs/dytt8"
+        self.output_dir = output_dir
         self.seeds_dir = f"{self.output_dir}/seeds"
         self.items_dir = f"{self.output_dir}/items"
         self.max_concurrent_tasks = 10
@@ -135,7 +135,7 @@ class MovieCrawler:
         os.makedirs(self.items_dir, exist_ok=True)
         
         start_time = datetime.now()
-        logger.info(f'开始抓取 {len(data)} 个电影详情...')
+        logger.info(f'开始抓取 {len(data)} 个电影详情，来源: {self.base_url}')
         
         async with AsyncWebCrawler() as crawler:
             tasks = []
@@ -151,7 +151,7 @@ class MovieCrawler:
                 await asyncio.gather(*tasks)
         
         duration = (datetime.now() - start_time).total_seconds()
-        logger.info(f'抓取完成，耗时: {duration:.2f} 秒')
+        logger.info(f'抓取完成，保存到 {self.items_dir}，耗时: {duration:.2f} 秒')
     
     async def crawl(self) -> None:
         """执行爬虫任务"""
@@ -160,6 +160,8 @@ class MovieCrawler:
         current_time = datetime.now().strftime("%Y-%m-%d")
         md_filename = f"{self.seeds_dir}/index_{current_time}.md"
         json_filename = f"{self.seeds_dir}/links_{current_time}.json"
+        
+        logger.info(f"开始从 {self.base_url} 抓取电影信息")
         
         async with AsyncWebCrawler() as crawler:
             result = await crawler.arun(url=self.base_url)
@@ -176,7 +178,10 @@ class MovieCrawler:
             await self.crawl_movie_details(json_filename)
 
 async def main():
-    crawler = MovieCrawler()
+    crawler = MovieCrawler(
+        base_url="https://www.dytt8.com",
+        output_dir="docs/dytt8"
+    )
     await crawler.crawl()
 
 if __name__ == "__main__":
