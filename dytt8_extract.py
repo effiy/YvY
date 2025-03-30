@@ -2,6 +2,8 @@ import os
 import json
 import re
 import logging
+from functools import lru_cache
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from haystack import Pipeline
 
 from haystack.components.builders import ChatPromptBuilder
@@ -68,12 +70,11 @@ template = [
     )
 ]
 
-
-def extract_movie_info(content):
-    """创建并运行电影信息提取管道"""
-    logger.info("开始提取电影信息")
-    
-    # 创建提取管道
+# 创建一个全局的LLM管道实例，避免重复创建
+@lru_cache(maxsize=1)
+def get_pipeline():
+    """获取或创建LLM管道实例"""
+    logger.info("创建LLM管道实例")
     prompt_builder = ChatPromptBuilder(template=template)
     llm = OllamaChatGenerator()
     
@@ -81,6 +82,16 @@ def extract_movie_info(content):
     pipeline.add_component("prompt_builder", prompt_builder)
     pipeline.add_component("llm", llm)
     pipeline.connect("prompt_builder.prompt", "llm.messages")
+    
+    return pipeline
+
+
+def extract_movie_info(content):
+    """使用LLM管道提取电影信息"""
+    logger.info("开始提取电影信息")
+    
+    # 获取管道实例
+    pipeline = get_pipeline()
     
     # 运行管道，处理文件内容
     logger.debug("运行LLM提取管道")
@@ -109,13 +120,72 @@ def clean_json_text(json_text):
     return json_text.strip()
 
 
-def process_files(directory):
-    """处理目录中的所有Markdown文件并提取电影信息"""
+def process_file(file_info):
+    """处理单个文件并提取电影信息"""
+    idx, total_files, filename, file_path, results_dir = file_info
+    logger.info(f"开始处理文件 [{idx}/{total_files}]: {filename}")
+    
+    try:
+        # 读取文件内容
+        with open(file_path, "r", encoding="utf-8") as file:
+            content = file.read()
+        logger.debug(f"成功读取文件内容: {filename}")
+        
+        # 使用文件名检查是否已处理过
+        base_filename = os.path.splitext(filename)[0]
+        
+        # 提取电影信息
+        json_result = extract_movie_info(content)
+        
+        # 清理和解析JSON
+        cleaned_json = clean_json_text(json_result)
+        logger.debug("尝试解析JSON")
+        parsed_json = json.loads(cleaned_json)
+        
+        # 添加文件名信息
+        parsed_json["source_file"] = filename
+        
+        # 使用译名作为文件名保存单个电影信息
+        movie_name = parsed_json.get("translated_name") or parsed_json.get("original_name")
+        if not movie_name:
+            movie_name = base_filename  # 如果没有提取到电影名，使用原文件名
+            
+        # 替换文件名中的非法字符
+        safe_name = re.sub(r'[\\/:*?"<>|]', '_', movie_name)
+        movie_file = os.path.join(results_dir, f"{safe_name}.json")
+        
+        # 检查结果文件是否已存在
+        if os.path.exists(movie_file):
+            logger.info(f"文件已存在，跳过处理: {movie_file}")
+            print(f"跳过已存在的文件 [{idx}/{total_files}]: {filename}")
+            return {"status": "skipped", "filename": filename}
+        
+        # 保存结果到文件
+        with open(movie_file, "w", encoding="utf-8") as f:
+            json.dump(parsed_json, f, ensure_ascii=False, indent=2)
+        logger.info(f"已将电影《{movie_name}》的信息保存到 {movie_file}")
+        
+        logger.info(f"成功处理文件 [{idx}/{total_files}]: {filename}")
+        print(f"成功处理文件 [{idx}/{total_files}]: {filename}")
+        
+        return {"status": "success", "data": parsed_json, "filename": filename}
+        
+    except json.JSONDecodeError as e:
+        error_msg = f"处理文件 {filename} 时出现JSON解析错误: {str(e)}"
+        logger.error(error_msg)
+        print(error_msg)
+        return {"status": "error", "error": str(e), "filename": filename}
+    except Exception as e:
+        error_msg = f"处理文件 {filename} 时出现未知错误: {str(e)}"
+        logger.error(error_msg)
+        print(error_msg)
+        return {"status": "error", "error": str(e), "filename": filename}
+
+
+def process_files(directory, max_workers=4):
+    """并行处理目录中的所有Markdown文件并提取电影信息"""
     logger.info(f"开始处理目录: {directory}")
     results = []
-    processed_count = 0
-    error_count = 0
-    skipped_count = 0
     
     # 确保目录存在
     if not os.path.exists(directory):
@@ -133,77 +203,43 @@ def process_files(directory):
     results_dir = "docs/dytt8/results"
     os.makedirs(results_dir, exist_ok=True)
     
+    # 预先检查哪些文件已经处理过，避免重复处理
+    existing_files = set(os.listdir(results_dir))
+    
+    # 准备任务列表
+    tasks = []
     for idx, filename in enumerate(md_files, 1):
         file_path = os.path.join(directory, filename)
-        logger.info(f"开始处理文件 [{idx}/{total_files}]: {filename}")
         
-        try:
-            # 读取文件内容
-            with open(file_path, "r", encoding="utf-8") as file:
-                content = file.read()
-            logger.debug(f"成功读取文件内容: {filename}")
+        # 检查是否已处理过
+        base_filename = os.path.splitext(filename)[0]
+        matching_files = [f for f in existing_files if base_filename in f]
+        
+        if matching_files:
+            logger.info(f"文件可能已处理过，跳过: {filename}")
+            print(f"跳过可能已处理的文件 [{idx}/{total_files}]: {filename}")
+            continue
             
-            # 使用文件名检查是否已处理过
-            # 先检查是否已有同名文件存在，避免重复处理
-            existing_files = [f for f in os.listdir(results_dir) if f.endswith(".json")]
-            base_filename = os.path.splitext(filename)[0]
-            matching_files = [f for f in existing_files if base_filename in f]
+        tasks.append((idx, total_files, filename, file_path, results_dir))
+    
+    # 使用线程池并行处理文件
+    processed_count = 0
+    error_count = 0
+    skipped_count = 0
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_file = {executor.submit(process_file, task): task for task in tasks}
+        
+        for future in as_completed(future_to_file):
+            result = future.result()
             
-            if matching_files:
-                logger.info(f"文件可能已处理过，跳过: {filename}")
-                print(f"跳过可能已处理的文件 [{idx}/{total_files}]: {filename}")
+            if result["status"] == "success":
+                results.append(result["data"])
+                processed_count += 1
+            elif result["status"] == "skipped":
                 skipped_count += 1
-                continue
-            
-            # 提取电影信息
-            json_result = extract_movie_info(content)
-            
-            # 清理和解析JSON
-            cleaned_json = clean_json_text(json_result)
-            logger.debug("尝试解析JSON")
-            parsed_json = json.loads(cleaned_json)
-            
-            # 添加文件名信息
-            parsed_json["source_file"] = filename
-            
-            # 使用译名作为文件名保存单个电影信息
-            movie_name = parsed_json.get("translated_name") or parsed_json.get("original_name")
-            if not movie_name:
-                movie_name = base_filename  # 如果没有提取到电影名，使用原文件名
-                
-            # 替换文件名中的非法字符
-            safe_name = re.sub(r'[\\/:*?"<>|]', '_', movie_name)
-            movie_file = os.path.join(results_dir, f"{safe_name}.json")
-            
-            # 检查结果文件是否已存在
-            if os.path.exists(movie_file):
-                logger.info(f"文件已存在，跳过处理: {movie_file}")
-                print(f"跳过已存在的文件 [{idx}/{total_files}]: {filename}")
-                skipped_count += 1
-                continue
-            
-            # 保存结果到文件
-            with open(movie_file, "w", encoding="utf-8") as f:
-                json.dump(parsed_json, f, ensure_ascii=False, indent=2)
-            logger.info(f"已将电影《{movie_name}》的信息保存到 {movie_file}")
-            
-            # 添加到结果列表
-            results.append(parsed_json)
-            
-            processed_count += 1
-            logger.info(f"成功处理文件 [{idx}/{total_files}]: {filename}")
-            print(f"成功处理文件 [{idx}/{total_files}]: {filename}")
-            
-        except json.JSONDecodeError as e:
-            error_count += 1
-            error_msg = f"处理文件 {filename} 时出现JSON解析错误: {str(e)}"
-            logger.error(error_msg)
-            print(error_msg)
-        except Exception as e:
-            error_count += 1
-            error_msg = f"处理文件 {filename} 时出现未知错误: {str(e)}"
-            logger.error(error_msg)
-            print(error_msg)
+            else:
+                error_count += 1
     
     summary_msg = f"处理完成: 成功 {processed_count} 个, 跳过 {skipped_count} 个, 失败 {error_count} 个"
     logger.info(summary_msg)
@@ -215,7 +251,9 @@ def process_files(directory):
 if __name__ == "__main__":
     logger.info("程序开始执行")
     items_dir = "docs/dytt8/items"
-    results = process_files(items_dir)
+    # 根据CPU核心数设置线程数，但不超过8个
+    max_workers = min(os.cpu_count() or 4, 8)
+    results = process_files(items_dir, max_workers=max_workers)
     
     # 确保结果目录存在
     results_dir = "docs/dytt8/results"
