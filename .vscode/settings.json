@@ -8,6 +8,7 @@
     "Embedder",
     "embedders",
     "imdb",
+    "levelname",
     "mixtral",
     "nomic",
     "Ollama",
