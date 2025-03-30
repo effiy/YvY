@@ -7,7 +7,10 @@
   "genre": "惊悚/恐怖",
   "language": "英语",
   "subtitle": "中英双字",
-  "release_date": "2023-12-08(美国)",
+  "release_date": [
+    "2023-07-28(幻想曲国际电影节)",
+    "2023-12-08(美国)"
+  ],
   "imdb_rating": 5.5,
   "douban_rating": 5.4,
   "duration": "99分钟",
@@ -23,7 +26,7 @@
     "贝莉·塞恩 Bailey Thain",
     "苏菲·麦金托什 Sophie McIntosh",
     "麦迪逊·拜恩斯 Madison Baines",
-    "伊莎贝尔·博尔顿 Isabelle Boulton",
+    "伊莎贝尔·博尔ton Isabelle Boulton",
     "道格拉斯·基德 Douglas Kidd",
     "乔治娅·艾肯 Georgia Acken"
   ],
@@ -32,14 +35,10 @@
   "download_links": [
     {
       "type": "磁力链接",
-      "url": "magnet:?xt=urn:btih:b47688a46e85097a8a13cf849957cf18427abe70&dn=%E9%98%B3%E5%85%89%E7%94%B5%E5%BD%B1dygod.org.%E7%8C%A7%E7%A5%AD%E6%B8%B8%E6%88%8F.2023.BD.1080P.%E4%B8%AD%E8%8B%B1%E5%8F%8C%E5%AD%97.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce"
+      "url": "magnet:?xt=urn:btih:b47688a46e85097a8a13cf849957cf18427abe70&dn=%e9%98%b3%e5%85%89%e7%94%b5%e5%bd%b1dygod.org.%e7%8c%ae%e7%a5%ad%e6%b8%b8%e6%88%8f.2023.BD.1080P.%e4%b8%ad%e8%8b%b1%e5%8f%8c%e5%ad%97.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce"
     },
     {
-      "type": "播放软件下载",
-      "url": "https://dygod.org/js/player.htm"
-    },
-    {
-      "type": "电影下载地址2",
+      "type": "其他",
       "url": "https://dygod.org/"
     }
   ],

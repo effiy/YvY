@@ -156,10 +156,11 @@ class MovieCrawler:
     async def crawl(self) -> None:
         """执行爬虫任务"""
         os.makedirs(self.seeds_dir, exist_ok=True)
+        os.makedirs(self.items_dir, exist_ok=True)
         
         current_time = datetime.now().strftime("%Y-%m-%d")
-        md_filename = f"{self.seeds_dir}/{current_time}.md"
-        json_filename = f"{self.seeds_dir}/{current_time}.json"
+        md_filename = f"{self.seeds_dir}/index_{current_time}.md"
+        json_filename = f"{self.seeds_dir}/links_{current_time}.json"
         
         async with AsyncWebCrawler() as crawler:
             result = await crawler.arun(url=self.base_url)

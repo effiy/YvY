@@ -32,15 +32,11 @@
   "download_links": [
     {
       "type": "磁力链接",
-      "url": "magnet:?xt=urn:btih:46c495a7ace4d5bb21ea7adefb12fe91287c3f96&dn=%e9%98%b3%e5%85%89%e7%94%b5%e5%bd%b1dygod.org.%e5%bf%8c%e6%80%aa%e5%b2%9b.2023.BD.1080P.%e6%97%a5%e8%af%ad%e4%b8%ad%e5%ad%97.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce"
+      "link": "magnet:?xt=urn:btih:46c495a7ace4d5bb21ea7adefb12fe91287c3f96&dn=%e9%98%b3%e5%85%89%e7%94%b5%e5%bd%b1dygod.org.%e5%bf%8c%e6%80%aa%e5%b2%9b.2023.BD.1080P.%e6%97%a5%e8%af%ad%e4%b8%ad%e5%ad%97.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce"
     },
     {
-      "type": "播放软件下载",
-      "url": "https://dygod.org/js/player.htm"
-    },
-    {
-      "type": "电影下载地址2",
-      "url": "https://dygod.org/"
+      "type": "网站链接",
+      "link": "https://dygod.org/"
     }
   ],
   "source_file": "忌怪岛.md"
