@@ -1,0 +1,215 @@
+# 原始URL: https://github.com/resources/articles
+
+# 抓取时间: 2025-03-30 21:11:15
+
+[Skip to content](https://github.com/resources/articles#start-of-content) GitHub Copilot is now available for free. [ Learn more ](https://github.com/features/copilot/?utm_source=github&utm_medium=banner&utm_campaign=copilotfree-bannerheader-resources-articles)
+## Navigation Menu
+Toggle navigation
+[ ](https://github.com/)
+[ Sign in ](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles)
+  * Product 
+    * [ GitHub Copilot Write better code with AI  ](https://github.com/features/copilot)
+    * [ Security Find and fix vulnerabilities  ](https://github.com/features/security)
+    * [ Actions Automate any workflow  ](https://github.com/features/actions)
+    * [ Codespaces Instant dev environments  ](https://github.com/features/codespaces)
+    * [ Issues Plan and track work  ](https://github.com/features/issues)
+    * [ Code Review Manage code changes  ](https://github.com/features/code-review)
+    * [ Discussions Collaborate outside of code  ](https://github.com/features/discussions)
+    * [ Code Search Find more, search less  ](https://github.com/features/code-search)
+Explore
+    * [ All features ](https://github.com/features)
+    * [ Documentation ](https://docs.github.com)
+    * [ GitHub Skills ](https://skills.github.com)
+    * [ Blog ](https://github.blog)
+  * Solutions 
+By company size
+    * [ Enterprises ](https://github.com/enterprise)
+    * [ Small and medium teams ](https://github.com/team)
+    * [ Startups ](https://github.com/enterprise/startups)
+    * [ Nonprofits ](https://github.com/solutions/industry/nonprofits)
+By use case
+    * [ DevSecOps ](https://github.com/solutions/use-case/devsecops)
+    * [ DevOps ](https://github.com/solutions/use-case/devops)
+    * [ CI/CD ](https://github.com/solutions/use-case/ci-cd)
+    * [ View all use cases ](https://github.com/solutions/use-case)
+By industry
+    * [ Healthcare ](https://github.com/solutions/industry/healthcare)
+    * [ Financial services ](https://github.com/solutions/industry/financial-services)
+    * [ Manufacturing ](https://github.com/solutions/industry/manufacturing)
+    * [ Government ](https://github.com/solutions/industry/government)
+    * [ View all industries ](https://github.com/solutions/industry)
+[ View all solutions ](https://github.com/solutions)
+  * Resources 
+Topics
+    * [ AI ](https://github.com/resources/articles/ai)
+    * [ DevOps ](https://github.com/resources/articles/devops)
+    * [ Security ](https://github.com/resources/articles/security)
+    * [ Software Development ](https://github.com/resources/articles/software-development)
+    * [ View all ](https://github.com/resources/articles)
+Explore
+    * [ Learning Pathways ](https://resources.github.com/learn/pathways)
+    * [ Events & Webinars ](https://resources.github.com)
+    * [ Ebooks & Whitepapers ](https://github.com/resources/whitepapers)
+    * [ Customer Stories ](https://github.com/customer-stories)
+    * [ Partners ](https://partner.github.com)
+    * [ Executive Insights ](https://github.com/solutions/executive-insights)
+  * Open Source 
+    * [ GitHub Sponsors Fund open source developers  ](https://github.com/sponsors)
+    * [ The ReadME Project GitHub community articles  ](https://github.com/readme)
+Repositories
+    * [ Topics ](https://github.com/topics)
+    * [ Trending ](https://github.com/trending)
+    * [ Collections ](https://github.com/collections)
+  * Enterprise 
+    * [ Enterprise platform AI-powered developer platform  ](https://github.com/enterprise)
+Available add-ons
+    * [ Advanced Security Enterprise-grade security features  ](https://github.com/enterprise/advanced-security)
+    * [ Copilot for business Enterprise-grade AI features  ](https://github.com/features/copilot/copilot-business)
+    * [ Premium Support Enterprise-grade 24/7 support  ](https://github.com/premium-support)
+  * [Pricing](https://github.com/pricing)
+
+
+Search or jump to...
+# Search code, repositories, users, issues, pull requests...
+Search 
+Clear
+[Search syntax tips](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax)
+#  Provide feedback 
+We read every piece of feedback, and take your input very seriously.
+Include my email address so I can be contacted
+Cancel  Submit feedback 
+#  Saved searches 
+## Use saved searches to filter your results more quickly
+Name
+Query
+To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax). 
+Cancel  Create saved search 
+[ Sign in ](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fresources%2Farticles)
+[ Sign up ](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fresources%2Farticles&source=header) Reseting focus
+You signed in with another tab or window. [Reload](https://github.com/resources/articles) to refresh your session. You signed out in another tab or window. [Reload](https://github.com/resources/articles) to refresh your session. You switched accounts on another tab or window. [Reload](https://github.com/resources/articles) to refresh your session. Dismiss alert
+{{ message }}
+# All Topics
+## Topics
+  * [All Topics](https://github.com/resources/articles)
+  * [AI](https://github.com/resources/articles/ai)
+  * [DevOps](https://github.com/resources/articles/devops)
+  * [Security](https://github.com/resources/articles/security)
+  * [Software Development](https://github.com/resources/articles/software-development)
+
+
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is Natural language processing (NLP)?](https://github.com/resources/articles/ai/natural-language-processing)
+Learn why natural language processing (NLP) is becoming an indispensable tool for developers. 
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What are AI models?](https://github.com/resources/articles/ai/what-are-ai-models)
+Learn how AI models help organizations identify data patterns, automate workflows, solve complex problems, forecast outcomes, and enhance decision making.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is a security risk assessment?](https://github.com/resources/articles/security/what-is-a-security-risk-assessment)
+Learn what a security risk assessment is, how to perform one effectively, and the key benefits of identifying and mitigating potential risks.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is Cross-Site Scripting (XSS)](https://github.com/resources/articles/security/what-is-cross-site-scripting)
+Discover how cross-site scripting (XSS) compromises web security and impacts users and organizations. Gain insights from real-world examples and learn about best practices to safeguard your applications.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is secret scanning?](https://github.com/resources/articles/security/what-is-secret-scanning)
+In today's digital landscape, protecting sensitive information is crucial for maintaining the integrity and security of an organization’s software systems.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [Dynamic application security testing (DAST)](https://github.com/resources/articles/security/what-is-dast)
+DAST is an AppSec method that simulates attacks to test web apps for security issues.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is CI/CD?](https://github.com/resources/articles/devops/ci-cd)
+Continuous Integration and Continuous Delivery/Deployment or (CI/CD) automates builds, testing, and deployment so you can ship code changes faster and reliably
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is a DevOps engineer and what does a DevOps engineer do?](https://github.com/resources/articles/devops/what-is-a-devops-engineer)
+A DevOps engineer enables collaboration and innovation within an organization.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [Enhancing software development with retrieval-augmented generation](https://github.com/resources/articles/ai/software-development-with-retrieval-augmentation-generation-rag)
+Learn how Retrieval Augmented Generation (RAG) improves coding, debugging, and code reviews.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What Is Incident Response?](https://github.com/resources/articles/security/what-is-incident-response)
+In today’s evolving threat landscape, a robust incident response plan is essential to minimize damage, protect sensitive data, and ensure business continuity.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What is software supply chain security?](https://github.com/resources/articles/security/what-is-software-supply-chain-security)
+Learn how software supply chain security helps organizations protect the safety, reliability, and integrity of their software supply chains from cybersecurity threats.
+Learn more
+![](https://github.com/images/modules/site/contentful/default/md.webp)
+### [What are code repositories?](https://github.com/resources/articles/software-development/what-are-code-repositories)
+Ever wonder where all that code you write actually lives? Welcome to the world of code repositories.
+Learn more
+Previous[1](https://github.com/resources/articles?page=1)[2](https://github.com/resources/articles?page=2)[3](https://github.com/resources/articles?page=3)[4](https://github.com/resources/articles?page=4)[5](https://github.com/resources/articles?page=5)[Next](https://github.com/resources/articles?page=2)
+## Site-wide Links
+[ ](https://github.com/)
+### Subscribe to our developer newsletter
+Get tips, technical guides, and best practices. Twice a month. Right in your inbox.
+[ Subscribe ](https://resources.github.com/newsletter/)
+###  Product 
+  * [Features](https://github.com/features)
+  * [Enterprise](https://github.com/enterprise)
+  * [Copilot](https://github.com/features/copilot)
+  * [Security](https://github.com/security)
+  * [Pricing](https://github.com/pricing)
+  * [Team](https://github.com/team)
+  * [Resources](https://resources.github.com)
+  * [Roadmap](https://github.com/github/roadmap)
+  * [Compare GitHub](https://resources.github.com/devops/tools/compare)
+
+
+###  Platform 
+  * [Developer API](https://docs.github.com/get-started/exploring-integrations/about-building-integrations)
+  * [Partners](https://partner.github.com)
+  * [Education](https://github.com/edu)
+  * [GitHub CLI](https://cli.github.com)
+  * [GitHub Desktop](https://desktop.github.com)
+  * [GitHub Mobile](https://github.com/mobile)
+
+
+###  Support 
+  * [Docs](https://docs.github.com)
+  * [Community Forum](https://github.community)
+  * [Professional Services](https://services.github.com)
+  * [Premium Support](https://github.com/enterprise/premium-support)
+  * [Skills](https://skills.github.com)
+  * [Status](https://www.githubstatus.com)
+  * [Contact GitHub](https://support.github.com?tags=dotcom-footer)
+
+
+###  Company 
+  * [About](https://github.com/about)
+  * [Customer stories](https://github.com/customer-stories?type=enterprise)
+  * [Blog](https://github.blog)
+  * [The ReadME Project](https://github.com/readme)
+  * [Careers](https://github.careers)
+  * [Newsroom](https://github.com/newsroom)
+  * [Inclusion](https://github.com/about/diversity)
+  * [Social Impact](https://socialimpact.github.com)
+  * [Shop](https://shop.github.com)
+
+
+  * © 2025 GitHub, Inc. 
+  * [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+  * [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement) ([Updated 02/2024](https://github.com/github/site-policy/pull/582)) 
+  * [Sitemap](https://github.com/sitemap)
+  * [What is Git?](https://github.com/git-guides)
+  * Manage cookies 
+  * Do not share my personal information 
+
+
+  * [ GitHub on LinkedIn ](https://www.linkedin.com/company/github)
+  * [ Instagram GitHub on Instagram ](https://www.instagram.com/github)
+  * [ GitHub on YouTube ](https://www.youtube.com/github)
+  * [ GitHub on X ](https://x.com/github)
+  * [ TikTok GitHub on TikTok ](https://www.tiktok.com/@github)
+  * [ Twitch GitHub on Twitch ](https://www.twitch.tv/github)
+  * [ GitHub’s organization on GitHub ](https://github.com/github)
+
+
+You can’t perform that action at this time. 
