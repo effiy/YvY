@@ -242,14 +242,13 @@ class BlogCrawler:
 async def main():
     # 示例URL列表
     urls = [
-        # "https://hub.baai.ac.cn/",
-        # "https://aibard123.com/digest/",
-        "https://github.com/GitHubDaily/GitHubDaily",
+        "https://hub.baai.ac.cn/",
+        "https://aibard123.com/digest/",
     ]
     
     crawler = BlogCrawler()
     # 设置最大抓取深度为2（种子URL为第0层，下面还有2层）
-    await crawler.crawl(urls, max_depth=2)
+    await crawler.crawl(urls, max_depth=1)
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -5,14 +5,6 @@
 [ AI 文摘 ](https://aibard123.com/digest/)
 从零训练一个多模态 LLM：预训练+指令微调+对齐+融合多模态+链接外部系统
 
-- By [AiBard123](https://aibard123.com/about)
-- July 22, 2023 - 2 min read
-
-![](https://api.allorigins.win/raw?url=https://mmbiz.qpic.cn/mmbiz_png/gKaxjIx6baia46icjgRnLE9l1pkcGJSLu1HO1knXr40pyPibibGnjoic5pEiarmUIkpIhAdBtHssVlAnNddun41icKibIg/640?wx_fmt=png)
-作者： AINLP 来源： [AINLP](https://mp.weixin.qq.com/s/JSW5vkKppp_bhzeUm45cBw)
-![](https://api.allorigins.win/raw?url=https://mmbiz.qpic.cn/mmbiz_jpg/nW2ZPfuYqSJuK8UUBxdZXj1c20hUg374YPgXibgDGytAy87YxvVk4WCRFWrdKJPshStrlPJp4vGEGUQodxt7ibOw/640?wx_fmt=jpeg)
-作者：逃脱鱼子酱
-原文链接：https://zhuanlan.zhihu.com/p/643611622
 本文尝试梳理**一个完整的多模态 LLM 的训练流程** 。包括模型结构选择、数据预处理、模型预训练、指令微调、对齐、融合多模态以及链接外部系统等环节。
 
 #### 一、准备阶段
