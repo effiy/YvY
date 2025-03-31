@@ -249,12 +249,10 @@ class BlogCrawler:
 async def main():
     # 示例URL列表
     urls = [
-        "https://gptpmt.com/",
         "https://hub.baai.ac.cn/view/28740",
         "https://aibard123.com/digest/",
         "https://github.com/GitHubDaily/GitHubDaily",
         "https://excalidraw-obsidian.online/blog",
-        "https://comfyui-wiki.com/zh/tutorial/basic/how-to-run-comfyui-serve",
     ]
     
     crawler = BlogCrawler()
