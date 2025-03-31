@@ -1,113 +1,76 @@
-# 原始URL: https://gptpmt.com/foundation/grammar
+# 原始 URL: https://gptpmt.com/foundation/grammar
 
 # 抓取时间: 2025-03-30 21:27:51
 
-[GPTPrompt](https://gptpmt.com/)
-`CTRL K`
-[GitHubGitHub (opens in a new tab)](https://github.com/CarGod/gptpmt)
-`CTRL K`
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
-
-
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-      * [不会读心术](https://gptpmt.com/foundation/grammar#不会读心术)
-      * [编写清晰的说明](https://gptpmt.com/foundation/grammar#编写清晰的说明)
-      * [指定模型的风格和角色](https://gptpmt.com/foundation/grammar#指定模型的风格和角色)
-      * [使用分隔符清楚的表示输入的不同部分](https://gptpmt.com/foundation/grammar#使用分隔符清楚的表示输入的不同部分)
-      * [指定完成任务所需的步骤](https://gptpmt.com/foundation/grammar#指定完成任务所需的步骤)
-      * [举例说明](https://gptpmt.com/foundation/grammar#举例说明)
-      * [指定需要的输出长度](https://gptpmt.com/foundation/grammar#指定需要的输出长度)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
-
-
-中文
-System
-On This Page
-  * [不会读心术](https://gptpmt.com/foundation/grammar#不会读心术)
-  * [编写清晰的说明](https://gptpmt.com/foundation/grammar#编写清晰的说明)
-  * [指定模型的风格和角色](https://gptpmt.com/foundation/grammar#指定模型的风格和角色)
-  * [指定模型风格](https://gptpmt.com/foundation/grammar#指定模型风格)
-  * [指定模型角色](https://gptpmt.com/foundation/grammar#指定模型角色)
-  * [两者结合](https://gptpmt.com/foundation/grammar#两者结合)
-  * [使用分隔符清楚的表示输入的不同部分](https://gptpmt.com/foundation/grammar#使用分隔符清楚的表示输入的不同部分)
-  * [使用三引号 (""")](https://gptpmt.com/foundation/grammar#使用三引号-)
-  * [使用 XML 标记](https://gptpmt.com/foundation/grammar#使用-xml-标记)
-  * [使用摘要和标题](https://gptpmt.com/foundation/grammar#使用摘要和标题)
-  * [指定完成任务所需的步骤](https://gptpmt.com/foundation/grammar#指定完成任务所需的步骤)
-  * [举例说明](https://gptpmt.com/foundation/grammar#举例说明)
-  * [指定需要的输出长度](https://gptpmt.com/foundation/grammar#指定需要的输出长度)
-  * [指定字数](https://gptpmt.com/foundation/grammar#指定字数)
-  * [指定段落数](https://gptpmt.com/foundation/grammar#指定段落数)
-  * [指定要点数](https://gptpmt.com/foundation/grammar#指定要点数)
-
-
-[Question? Give us feedback → (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?title=Feedback%20for%20%E2%80%9C%E8%8E%B7%E5%BE%97%E4%BC%98%E8%B4%A8%E8%BE%93%E5%87%BA%E7%9A%84%E5%85%AD%E5%A4%A7%E6%8A%80%E5%B7%A7%E2%80%9D&labels=feedback)[Edit this page](https://github.com/CarGod/gptpmt/pages/foundation/grammar.zh.mdx)
-[基础篇](https://gptpmt.com/foundation)
-获得优质输出的六大技巧
 # 获得优质输出的六大技巧
+
+- [不会读心术](https://gptpmt.com/foundation/grammar#不会读心术)
+- [编写清晰的说明](https://gptpmt.com/foundation/grammar#编写清晰的说明)
+- [指定模型的风格和角色](https://gptpmt.com/foundation/grammar#指定模型的风格和角色)
+- [指定模型风格](https://gptpmt.com/foundation/grammar#指定模型风格)
+- [指定模型角色](https://gptpmt.com/foundation/grammar#指定模型角色)
+- [两者结合](https://gptpmt.com/foundation/grammar#两者结合)
+- [使用分隔符清楚的表示输入的不同部分](https://gptpmt.com/foundation/grammar#使用分隔符清楚的表示输入的不同部分)
+- [使用三引号 (""")](https://gptpmt.com/foundation/grammar#使用三引号-)
+- [使用 XML 标记](https://gptpmt.com/foundation/grammar#使用-xml-标记)
+- [使用摘要和标题](https://gptpmt.com/foundation/grammar#使用摘要和标题)
+- [指定完成任务所需的步骤](https://gptpmt.com/foundation/grammar#指定完成任务所需的步骤)
+- [举例说明](https://gptpmt.com/foundation/grammar#举例说明)
+- [指定需要的输出长度](https://gptpmt.com/foundation/grammar#指定需要的输出长度)
+- [指定字数](https://gptpmt.com/foundation/grammar#指定字数)
+- [指定段落数](https://gptpmt.com/foundation/grammar#指定段落数)
+- [指定要点数](https://gptpmt.com/foundation/grammar#指定要点数)
+
 ## 不会读心术[](https://gptpmt.com/foundation/grammar#不会读心术)
+
 GPT 非常的强大，但可惜的是它还不会读心术，无法读懂你的想法。所以，当我们想要什么的时候，要清晰的告诉它，不要让 GPT 猜测我们想要什么。
 **猜测的越少，结果越可能是我们想要的。**
+
 ## 编写清晰的说明[](https://gptpmt.com/foundation/grammar#编写清晰的说明)
+
 为了得到想要的回复，你需要确保提供了重要的细节或上下文。否则，GPT 只能猜测你的意思。
 错误示例| 正确示例  
 ---|---  
 如何在 Excel 中添加数字？| 如何在 Excel 中将一行美元金额相加？我想自动完成每一行的加总，所有的加总结果都在右边的 "总计 "列中。  
 谁是总统？| 2021 年的美国总统是谁，选举的频率是多久一次？  
 使用代码编写一个计算斐波那契数列的方法| 使用 Python 编写一个计算斐波那契数列的方法，对代码进行大量的注释，解释每个部分的作用以及为什么要这么写。  
-随机写一段会议记录，并对记录进行总结| 随机写一段会议记录，然后使用 markdown 格式列出发言者及其要点。最后，列出发言者的待办事项(如果有的话)。  
+随机写一段会议记录，并对记录进行总结| 随机写一段会议记录，然后使用 markdown 格式列出发言者及其要点。最后，列出发言者的待办事项(如果有的话)。
+
 ## 指定模型的风格和角色[](https://gptpmt.com/foundation/grammar#指定模型的风格和角色)
+
 ### 指定模型风格[](https://gptpmt.com/foundation/grammar#指定模型风格)
+
 Prompt
+
 ```
 当我请你帮忙写东西时，你的回答内容每段至少包含一个笑话或俏皮的话。
 给我的同学张三写一封感谢信，感谢在他的介绍下，我成功找到了一份工作。
 ```
 
 ### 指定模型角色[](https://gptpmt.com/foundation/grammar#指定模型角色)
+
 Prompt
+
 ```
 你现在是一位“大学语文教授”，需要从你专业的角度来回答我的问题。
 解释下李白在写：“天生我材必有用，千金散尽还复来”。内心的情感变化和想要表达的思想感情。
 ```
 
 ### 两者结合[](https://gptpmt.com/foundation/grammar#两者结合)
+
 Prompt
+
 ```
 你现在是一位“诺贝尔天体物理学奖得主”，需要从你专业的角度来回答我的问题，回答的内容是给10岁的孩子看的，需要让他们能够看懂，并且充满想象力。
 解释下黑洞的形成原理，以及黑洞的特性。
 ```
 
 ## 使用分隔符清楚的表示输入的不同部分[](https://gptpmt.com/foundation/grammar#使用分隔符清楚的表示输入的不同部分)
+
 ### 使用三引号 (""")[](https://gptpmt.com/foundation/grammar#使用三引号-)
+
 Prompt
+
 ```
 用一首诗歌来概括用三引号(""")包裹的文字。
 """
@@ -131,7 +94,9 @@ Prompt
 ```
 
 ### 使用 XML 标记[](https://gptpmt.com/foundation/grammar#使用-xml-标记)
+
 Prompt
+
 ```
 你将收到两首和黄鹤楼有关的诗句（用XML标记分割），首先对每首诗进行解析，然后指出哪首诗写的更好，并解释原因。
 <article>昔人已乘黄鹤去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。晴川历历汉阳树，芳草萋萋鹦鹉洲。日暮乡关何处是，烟波江上使人愁。</article>
@@ -139,7 +104,9 @@ Prompt
 ```
 
 ### 使用摘要和标题[](https://gptpmt.com/foundation/grammar#使用摘要和标题)
+
 Prompt
+
 ```
 我将为你提供文章的摘要和标题。标题应该让读者对文章主题有一个很好的感念，同时也要醒目。如果标题不符合这些标准，请给出5个备选标题。
 摘要：今天(7月30日)至8月1日，北京、天津、河北、山东、河南、山西等地极端强降雨来袭，此次降雨过程持续时间长、影响范围广、累计雨量大，今明天将是降雨核心时段，部分地区有大暴雨，局地特大暴雨。同时由于多降雨，中东部高温范围小，不过南方闷热持续，华南等地体感温度或达40℃。
@@ -147,6 +114,7 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 备选标题：
 1. "暴雨袭击！北方多地遭受极端强降雨，北京河北局部或迎特大暴雨"
@@ -157,10 +125,13 @@ ChatGPT
 ```
 
 💡
-或许你会发现，是否使用分隔符对结果质量的影响并不大。但这仅仅是对于简单任务来说，任务越复杂对于ChatGPT来说需要明确的细节就越多、越重要。使用分隔符，可以让GPT更容易理解我们想要什么。
+或许你会发现，是否使用分隔符对结果质量的影响并不大。但这仅仅是对于简单任务来说，任务越复杂对于 ChatGPT 来说需要明确的细节就越多、越重要。使用分隔符，可以让 GPT 更容易理解我们想要什么。
+
 ## 指定完成任务所需的步骤[](https://gptpmt.com/foundation/grammar#指定完成任务所需的步骤)
+
 实际上我们想要让 GPT 完成的任务都是分步骤的，此时明确这些步骤，可以让模型更好的完成任务。
 Prompt
+
 ```
 请按要求，一步一步的完成任务。
 1.我会提供给你一段文本，使用三引号(""")包裹起来，用 "摘要：" 作为前缀，用一句话描述这段文字。
@@ -186,14 +157,17 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 摘要：文中描述了在苍茫的大海上，海燕高傲地飞翔，叫喊着迎接即将到来的暴风雨，表现出勇敢、渴望和胜利的信心。
 翻译：Summary: The text depicts a scene of a majestic stormy sea, where a proud sea swallow soars amidst thunder and lightning, bravely welcoming the approaching storm with a sense of courage, longing, and confidence in victory.
 ```
 
 ## 举例说明[](https://gptpmt.com/foundation/grammar#举例说明)
+
 有时候我们想要得到的回复没有明确的风格，或想要的格式特别复杂。这时候，我们可以通过举例说明的方式，让模型更好的理解我们的意思。
 Prompt
+
 ```
 作为 "神奇动物命名器"，你将根据我提供的例子，来为具体的动物起名字。
 例子：
@@ -205,16 +179,21 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 动物：马
 名称：风骏疾影
 ```
 
 ## 指定需要的输出长度[](https://gptpmt.com/foundation/grammar#指定需要的输出长度)
+
 我们可以要求模型生成具体长度的内容，可以用字数、句子数、段落数、要点数等来制定输出长度。需要注意的是，GPT 在生成具体字数的时候 **精度不高** ，但在生成特定段落数和要点数的时候比较可靠。
 所以，当我们需要 GPT 来生成多少个字符以内的输出时，需要使用程序再处理一次，因为 GPT 不会“听话”的。
+
 ### 指定字数[](https://gptpmt.com/foundation/grammar#指定字数)
+
 Prompt
+
 ```
 使用大约 50 个字，来概括三引号包裹(""")的内容。
 """
@@ -238,13 +217,17 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 这段文字描写海上风暴中的海燕勇敢自由的飞翔。海燕高傲地穿越乌云和波浪，叫喊中充满对暴风雨的渴望，展现出愤怒、热情、胜利的力量。与其他海鸟不同，海燕享受战斗的欢乐。文字充满活力，形容海燕为黑色的闪电，是暴风雨的精灵，相信乌云无法遮挡太阳，迎接着即将到来的暴风雨。
 ```
 
 可以看到输出的结果远远超出了 50 个字了，所以如果需要 GPT 生成较为精准的字数，是不太合适的。
+
 ### 指定段落数[](https://gptpmt.com/foundation/grammar#指定段落数)
+
 Prompt
+
 ```
 使用两个段落，来概括三引号包裹(""")的内容。
 """
@@ -268,14 +251,18 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 这段文字描绘了苍茫大海上的暴风雨，以及一只勇敢的海燕在其中飞翔的场景。暴风雨即将来临，乌云聚集，海燕高傲地飞翔在乌云和大海之间。海鸥、海鸭和企鹅呻吟着，惧怕暴风雨的到来，而海燕则充满渴望和勇气，欢呼愤怒和胜利。乌云越来越暗，波浪愤怒地冲击着，而海燕飞舞着穿越乌云，勇敢地面对雷声和飞沫。海燕是高傲的暴风雨的精灵，笑看乌云，相信太阳永不会被遮住。整个场景充满壮丽和震撼，预示着暴风雨的来临。
 该段文字强调了海燕的勇气和自由，以及对暴风雨的渴望和胜利的信心。它与其他海鸟形成鲜明对比，表现了海燕的高傲和不屈精神。同时，通过描绘暴风雨即将来临的场景，营造了一种气势磅礴的氛围，强调了自然界的壮美和力量。
 ```
 
 使用段落时，就能较为准确的生成指定段落数的内容。
+
 ### 指定要点数[](https://gptpmt.com/foundation/grammar#指定要点数)
+
 Prompt
+
 ```
 使用三个要点，来概括三引号包裹(""")的内容。
 """
@@ -299,6 +286,7 @@ Prompt
 ```
 
 ChatGPT
+
 ```
 1. 诗意的描绘：三引号包裹的内容是一段诗意的描绘，描述了在苍茫的大海上，狂风卷集着乌云，海鸟和海燕在暴风雨中的飞翔和叫喊。
 2. 勇敢与自由：其中海燕被描绘为勇敢、自由自在的存在，在飞翔中叫喊、笑着，象征着对暴风雨的渴望和胜利的信心。
@@ -306,15 +294,3 @@ ChatGPT
 ```
 
 同样表现的非常出色~
-💬
-恭喜学完本章节，章节内涉及到的Prompt大家都可以通过简单的修改和发散，更好的帮助我们解决实际问题。如果你有任何疑问或想要跟大家进行交流，欢迎到 [Github issues (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?labels=feedback) 发表学习心得以及反馈问题 👏🏻
-微信扫码关注公众号，开启专属于你的
-Ai 新纪元
-🎉
-现在关注，获取最新更新通知，免费解锁更多粉丝专属福利～
-![车神大讲堂-微信公众号](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fofficial-wechat.616d90eb.png&w=1920&q=75)
-Last updated on 2024年5月21日
-[基础篇](https://gptpmt.com/foundation "基础篇")[结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured "结构化Prompt模板与技巧")
-中文
-System
-Copyright © 2023 Luffy Liu

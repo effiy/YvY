@@ -1,72 +1,29 @@
-# 原始URL: https://gptpmt.com/advance/use_xml
+# 原始 URL: https://gptpmt.com/advance/use_xml
 
 # 抓取时间: 2025-03-30 21:27:51
 
-[GPTPrompt](https://gptpmt.com/)
-`CTRL K`
-[GitHubGitHub (opens in a new tab)](https://github.com/CarGod/gptpmt)
-`CTRL K`
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
+# Prompt 优化的终极指南：善用 xml 标签
 
+- [什么是 xml 标签](https://gptpmt.com/advance/use_xml#什么是xml标签)
+- [举个例子](https://gptpmt.com/advance/use_xml#举个例子)
+- [xml 标签的特点](https://gptpmt.com/advance/use_xml#xml标签的特点)
+- [为什么要使用 xml](https://gptpmt.com/advance/use_xml#为什么要使用xml)
+- [一个案例](https://gptpmt.com/advance/use_xml#一个案例)
+- [会议纪要代办生成](https://gptpmt.com/advance/use_xml#会议纪要代办生成)
+- [Prompt 示例](https://gptpmt.com/advance/use_xml#prompt示例)
+- [xml 标签注意事项](https://gptpmt.com/advance/use_xml#xml标签注意事项)
+- [标签必须是成对出现的](https://gptpmt.com/advance/use_xml#标签必须是成对出现的)
+- [标签的名字和标签中的内容有对应关系](https://gptpmt.com/advance/use_xml#标签的名字和标签中的内容有对应关系)
+- [任何地方出现 Prompt 都要是成对的](https://gptpmt.com/advance/use_xml#任何地方出现prompt都要是成对的)
 
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-      * [什么是xml标签](https://gptpmt.com/advance/use_xml#什么是xml标签)
-      * [一个案例](https://gptpmt.com/advance/use_xml#一个案例)
-      * [xml标签注意事项](https://gptpmt.com/advance/use_xml#xml标签注意事项)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
+## 什么是 xml 标签[](https://gptpmt.com/advance/use_xml#什么是xml标签)
 
+简单来说，xml 标签是用来标记数据的。它们用尖括号包围起来，比如`<tag>`。一个标签一般有一个开始标签和一个结束标签，开始标签是`<tag>`，结束标签是`</tag>`，其中的内容就是这个标签所包含的数据。
 
-中文
-System
-On This Page
-  * [什么是xml标签](https://gptpmt.com/advance/use_xml#什么是xml标签)
-  * [举个例子](https://gptpmt.com/advance/use_xml#举个例子)
-  * [xml标签的特点](https://gptpmt.com/advance/use_xml#xml标签的特点)
-  * [为什么要使用xml](https://gptpmt.com/advance/use_xml#为什么要使用xml)
-  * [一个案例](https://gptpmt.com/advance/use_xml#一个案例)
-  * [会议纪要代办生成](https://gptpmt.com/advance/use_xml#会议纪要代办生成)
-  * [Prompt示例](https://gptpmt.com/advance/use_xml#prompt示例)
-  * [xml标签注意事项](https://gptpmt.com/advance/use_xml#xml标签注意事项)
-  * [标签必须是成对出现的](https://gptpmt.com/advance/use_xml#标签必须是成对出现的)
-  * [标签的名字和标签中的内容有对应关系](https://gptpmt.com/advance/use_xml#标签的名字和标签中的内容有对应关系)
-  * [任何地方出现Prompt都要是成对的](https://gptpmt.com/advance/use_xml#任何地方出现prompt都要是成对的)
-
-
-[Question? Give us feedback → (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?title=Feedback%20for%20%E2%80%9CPrompt%E4%BC%98%E5%8C%96%E7%9A%84%E7%BB%88%E6%9E%81%E6%8C%87%E5%8D%97%EF%BC%9A%E5%96%84%E7%94%A8xml%E6%A0%87%E7%AD%BE%E2%80%9D&labels=feedback)[Edit this page](https://github.com/CarGod/gptpmt/pages/advance/use_xml.zh.mdx)
-[进阶篇](https://gptpmt.com/advance)
-善用XML标签
-# Prompt优化的终极指南：善用xml标签
-## 什么是xml标签[](https://gptpmt.com/advance/use_xml#什么是xml标签)
-简单来说，xml标签是用来标记数据的。它们用尖括号包围起来，比如`<tag>`。一个标签一般有一个开始标签和一个结束标签，开始标签是`<tag>`，结束标签是`</tag>`，其中的内容就是这个标签所包含的数据。
 ### 举个例子[](https://gptpmt.com/advance/use_xml#举个例子)
-假设我们有一个关于书籍的信息，我们可以用xml标签来标记这些信息：
+
+假设我们有一个关于书籍的信息，我们可以用 xml 标签来标记这些信息：
+
 ```
 <book>
   <title>Harry Potter and the Philosopher's Stone</title>
@@ -76,25 +33,30 @@ On This Page
 ```
 
 在这个例子中：
-  * `<book>` 和 `</book>` 标签包含了整个书籍的信息。
-  * `<title>` 和 `</title>` 标签包含了书名“Harry Potter and the Philosopher's Stone”。
-  * `<author>` 和 `</author>` 标签包含了作者名“J.K. Rowling”。
-  * `<year>` 和 `</year>` 标签包含了出版年份“1997”。
 
+- `<book>` 和 `</book>` 标签包含了整个书籍的信息。
+- `<title>` 和 `</title>` 标签包含了书名“Harry Potter and the Philosopher's Stone”。
+- `<author>` 和 `</author>` 标签包含了作者名“J.K. Rowling”。
+- `<year>` 和 `</year>` 标签包含了出版年份“1997”。
 
-### xml标签的特点[](https://gptpmt.com/advance/use_xml#xml标签的特点)
-  1. **自定义标签** ：xml标签是可以自定义的。这意味着你可以根据需要创建任何标签来标记你的数据，比如`<book>`、`<title>`等。
-  2. **结构化数据** ：xml标签帮助组织和结构化数据，使数据更易读和理解。
-  3. **层次关系** ：xml标签可以嵌套，这意味着一个标签可以包含另一个标签，就像上面的例子中`<book>`标签包含了`<title>`、`<author>`和`<year>`标签。
+### xml 标签的特点[](https://gptpmt.com/advance/use_xml#xml标签的特点)
 
+1. **自定义标签** ：xml 标签是可以自定义的。这意味着你可以根据需要创建任何标签来标记你的数据，比如`<book>`、`<title>`等。
+2. **结构化数据** ：xml 标签帮助组织和结构化数据，使数据更易读和理解。
+3. **层次关系** ：xml 标签可以嵌套，这意味着一个标签可以包含另一个标签，就像上面的例子中`<book>`标签包含了`<title>`、`<author>`和`<year>`标签。
 
-### 为什么要使用xml[](https://gptpmt.com/advance/use_xml#为什么要使用xml)
-从上面的介绍中，我们不难看出xml标签的特点，`自定义标签`、`结构化数据`、`层次关系`，而大语言模型最大的问题恰恰就在于需要更清晰的描述和数据结构，这样才能更好的理解我们的需求。
-如果一个Prompt非常的复杂，经过很多次调优效果也不好，这时候就可以考虑采用xml标签的方式，将数据结构化。
+### 为什么要使用 xml[](https://gptpmt.com/advance/use_xml#为什么要使用xml)
+
+从上面的介绍中，我们不难看出 xml 标签的特点，`自定义标签`、`结构化数据`、`层次关系`，而大语言模型最大的问题恰恰就在于需要更清晰的描述和数据结构，这样才能更好的理解我们的需求。
+如果一个 Prompt 非常的复杂，经过很多次调优效果也不好，这时候就可以考虑采用 xml 标签的方式，将数据结构化。
+
 ## 一个案例[](https://gptpmt.com/advance/use_xml#一个案例)
+
 ### 会议纪要代办生成[](https://gptpmt.com/advance/use_xml#会议纪要代办生成)
-一家虚构的汽车销售公司和一次虚构的会议，内容由ChatGPT生成：
+
+一家虚构的汽车销售公司和一次虚构的会议，内容由 ChatGPT 生成：
 会议内容示例
+
 ```
 ### 会议背景
 在过去的几个季度中，Speedster Motors的汽车销售一直呈现下滑趋势。尽管市场环境不尽如人意，公司高层认为销售部门有必要集思广益，共同探讨解决方案，以提升销量。为此，公司决定召开一次销售部门的策略会议，讨论改进措施。
@@ -171,10 +133,13 @@ John Smith：非常感谢大家的积极参与。今天的讨论非常有建设�
 此次会议为Speedster Motors的销售部门提供了明确的方向和具体的行动计划，相信在大家的共同努力下，公司将能够有效应对市场挑战，实现销量的提升。
 ```
 
-可以看到会议的内容还是比较长的，有时我们面对的可能是一两个小时的会议聊天记录，如果需要人工提取相关信息就比较困难了，这时候就可以借助Ai的力量来完成这件事情。
-但是Ai对于这种大段内容的理解是比较困难的，这时候我们就可以使用xml标签的方式，来帮助Ai更好的理解我们的需求。
-#### Prompt示例[](https://gptpmt.com/advance/use_xml#prompt示例)
+可以看到会议的内容还是比较长的，有时我们面对的可能是一两个小时的会议聊天记录，如果需要人工提取相关信息就比较困难了，这时候就可以借助 Ai 的力量来完成这件事情。
+但是 Ai 对于这种大段内容的理解是比较困难的，这时候我们就可以使用 xml 标签的方式，来帮助 Ai 更好的理解我们的需求。
+
+#### Prompt 示例[](https://gptpmt.com/advance/use_xml#prompt示例)
+
 Prompt
+
 ```
 你是一位专业的会议记录员，擅长进行会议纪要的整理和提取。请根据以下会议内容，生成一份会议纪要，并提取出会议议题、参会人员、相关人员的待办事项，按<format></format>中的格式进行输出。
 <会议内容>
@@ -195,8 +160,9 @@ Prompt
 </format>
 ```
 
-将上面的Prompt的`<会议内容></会议内容>`替换为具体的会议内容，再将整个Prompt发送给GPT就可以得到下面的输出：
+将上面的 Prompt 的`<会议内容></会议内容>`替换为具体的会议内容，再将整个 Prompt 发送给 GPT 就可以得到下面的输出：
 ChatGPT
+
 ```
 ## 会议议题
 1. 近期销售情况回顾
@@ -228,30 +194,25 @@ ChatGPT
 - 通过公益活动、品牌宣传等手段，重塑品牌形象 完成时间：2024年7月底
 ```
 
-## xml标签注意事项[](https://gptpmt.com/advance/use_xml#xml标签注意事项)
-可以看出GPT很好的完成了我们的诉求，这里有几个重要的知识点需要掌握
+## xml 标签注意事项[](https://gptpmt.com/advance/use_xml#xml标签注意事项)
+
+可以看出 GPT 很好的完成了我们的诉求，这里有几个重要的知识点需要掌握
+
 ### 标签必须是成对出现的[](https://gptpmt.com/advance/use_xml#标签必须是成对出现的)
-使用xml标签的时候，一定是成对出现的，比如`<format></format>`、`<会议内容></会议内容>`，两个标签中间的内容，就是我们需要GPT处理的内容。
+
+使用 xml 标签的时候，一定是成对出现的，比如`<format></format>`、`<会议内容></会议内容>`，两个标签中间的内容，就是我们需要 GPT 处理的内容。
 开始标签：`<format>`
 你的内容
 结束标签：`</format>`
 **结束标签一定是有一个 反斜线`/` ，这点至关重要**
+
 ### 标签的名字和标签中的内容有对应关系[](https://gptpmt.com/advance/use_xml#标签的名字和标签中的内容有对应关系)
-对于Ai来说，没有哪个标签的效果是最好的，例如 `<会议>`、`<会议纪要>`、`<会议记录>`，或者是英文的标签，都是可以的，但是一定要保证标签的名字和标签中的内容有对应关系，越清晰越好。
-假如我们想要让Ai帮忙修改我们的简历，这时候把简历的全部内容传给Ai，就可以使用xml节点包裹：
+
+对于 Ai 来说，没有哪个标签的效果是最好的，例如 `<会议>`、`<会议纪要>`、`<会议记录>`，或者是英文的标签，都是可以的，但是一定要保证标签的名字和标签中的内容有对应关系，越清晰越好。
+假如我们想要让 Ai 帮忙修改我们的简历，这时候把简历的全部内容传给 Ai，就可以使用 xml 节点包裹：
 `<个人简历></个人简历>`、`<resume></resume>`，都是很好的选择。
-### 任何地方出现Prompt都要是成对的[](https://gptpmt.com/advance/use_xml#任何地方出现prompt都要是成对的)
-有时候我们需要在Prompt里面告诉Ai，什么内容在哪些标签中，以提高它的准确性。
-例如，我想要告诉Ai按照我的格式进行输出，我就会说：按照 `<format></format>` 中的格式进行输出，这里一定要是 `<format></format>` 不能是 `format` 或者是 `<format>`。
-💬
-恭喜学完本章节，你已经了解了如何使用xml标签，更好的去优化自己的Prompt，打开了 Prompt Engineer 的进阶大门。如果你有任何疑问或想要跟大家进行交流，欢迎到 [Github issues (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?labels=feedback) 发表学习心得以及反馈问题 👏🏻
-微信扫码关注公众号，开启专属于你的
-Ai 新纪元
-🎉
-现在关注，获取最新更新通知，免费解锁更多粉丝专属福利～
-![车神大讲堂-微信公众号](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fofficial-wechat.616d90eb.png&w=1920&q=75)
-Last updated on 2024年5月21日
-[进阶篇](https://gptpmt.com/advance "进阶篇")[思维链提示](https://gptpmt.com/advance/let_think "思维链提示")
-中文
-System
-Copyright © 2023 Luffy Liu
+
+### 任何地方出现 Prompt 都要是成对的[](https://gptpmt.com/advance/use_xml#任何地方出现prompt都要是成对的)
+
+有时候我们需要在 Prompt 里面告诉 Ai，什么内容在哪些标签中，以提高它的准确性。
+例如，我想要告诉 Ai 按照我的格式进行输出，我就会说：按照 `<format></format>` 中的格式进行输出，这里一定要是 `<format></format>` 不能是 `format` 或者是 `<format>`。

@@ -1,110 +1,95 @@
-# 原始URL: https://gptpmt.com/
+# 原始 URL: https://gptpmt.com/
 
 # 抓取时间: 2025-03-30 21:27:49
 
 [GPTPrompt](https://gptpmt.com/)
-`CTRL K`
-[GitHubGitHub (opens in a new tab)](https://github.com/CarGod/gptpmt)
-`CTRL K`
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
 
+- [项目介绍](https://gptpmt.com/)
+  - [自然语言编程时代](https://gptpmt.com/#自然语言编程时代)
+  - [如何成为 Prompt Engineer？](https://gptpmt.com/#如何成为-prompt-engineer)
+  - [AI 会导致人类变笨吗？](https://gptpmt.com/#ai-会导致人类变笨吗)
+  - [我需要准备什么？](https://gptpmt.com/#我需要准备什么)
+- [先导篇](https://gptpmt.com/preface)
+  - [Hello ChatGPT](https://gptpmt.com/preface/hello)
+  - [什么是 Tokens？](https://gptpmt.com/preface/basics_token)
+  - [概率和温度](https://gptpmt.com/preface/basics_probability)
+- [基础篇](https://gptpmt.com/foundation)
+  - [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
+  - [结构化 Prompt 模板与技巧](https://gptpmt.com/foundation/structured)
+  - [让 GPT 输出 JSON 数据](https://gptpmt.com/foundation/json_format)
+- [进阶篇](https://gptpmt.com/advance)
+  - [善用 XML 标签](https://gptpmt.com/advance/use_xml)
+  - [思维链提示](https://gptpmt.com/advance/let_think)
+- [实战篇](https://gptpmt.com/practice)
+- [关于此项目](https://gptpmt.com/about)
+- [关于我](https://gptpmt.com/contact)
 
-  * [项目介绍](https://gptpmt.com/)
-    * [自然语言编程时代](https://gptpmt.com/#自然语言编程时代)
-    * [如何成为 Prompt Engineer？](https://gptpmt.com/#如何成为-prompt-engineer)
-    * [AI 会导致人类变笨吗？](https://gptpmt.com/#ai-会导致人类变笨吗)
-    * [我需要准备什么？](https://gptpmt.com/#我需要准备什么)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
+- [自然语言编程时代](https://gptpmt.com/#自然语言编程时代)
+- [如何成为 Prompt Engineer？](https://gptpmt.com/#如何成为-prompt-engineer)
+- [AI 会导致人类变笨吗？](https://gptpmt.com/#ai-会导致人类变笨吗)
+- [我需要准备什么？](https://gptpmt.com/#我需要准备什么)
 
-
-中文
-System
-On This Page
-  * [自然语言编程时代](https://gptpmt.com/#自然语言编程时代)
-  * [如何成为 Prompt Engineer？](https://gptpmt.com/#如何成为-prompt-engineer)
-  * [AI 会导致人类变笨吗？](https://gptpmt.com/#ai-会导致人类变笨吗)
-  * [我需要准备什么？](https://gptpmt.com/#我需要准备什么)
-
-
-[Question? Give us feedback → (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?title=Feedback%20for%20%E2%80%9C%E4%BB%80%E4%B9%88%E6%98%AF%20Prompt%20Engineering%EF%BC%9F%E2%80%9D&labels=feedback)[Edit this page](https://github.com/CarGod/gptpmt/pages/index.zh.mdx)
-项目介绍
 # 什么是 Prompt Engineering？
+
 Prompt Engineering(提示工程) 是指在使用大语言模型时，编写**高效、准确** 的 Prompt(提示)的过程。
 这么说可能会比较抽象，举个例子：
 假如现在你有一个阿拉丁的神灯，灯神让你许三个愿望。首先我们会 **思考** 如何让愿望的效果更好，确保灯神能够 **理解** 。要避免我们本来想的是让灯神把我们变成世界上最富有的人，结果愿望没说好，导致灯神 **误解** 了，把我们变成了世界上最贫穷的人了。
 或者我们本来想的是让灯神给我 **一万亿美元** ，但对灯神说的是：`请你给我一万亿`，灯神可能就会**随机** 给我们一种货币，有可能给我们的就是 **津巴布韦币** 了。显然，结果并不是我们想要的。
+
 > 根据 [维基百科 (opens in a new tab)](https://zh.wikipedia.org/zh-hans/%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%8B%E5%85%83#%E7%AC%AC%E4%B8%89%E4%BB%A3) 第三代津巴布韦币 一万亿 = 一美元
-不难发现，我们对灯神许下的愿望就是 Prompt，而愿望能否达成，取决于我们 Prompt 的好坏。于是就诞生了一个新的学科 Prompt Engineering，这个学科就是研究如何写出更好的 Prompt，也由此诞生了一个新的工作岗位 Prompt Engineer(提示工程师)。
-通过上面的例子，我们不难看出 灯神 = 大语言模型(大语言模型有很多，在本教程我们以 ChatGPT 来作为代表)，许下的愿望 = 发送给 ChatGPT 的内容 = Prompt。而最终 ChatGPT 能否很好的完成我们的任务，这都取决于 Prompt 的好坏。
+> 不难发现，我们对灯神许下的愿望就是 Prompt，而愿望能否达成，取决于我们 Prompt 的好坏。于是就诞生了一个新的学科 Prompt Engineering，这个学科就是研究如何写出更好的 Prompt，也由此诞生了一个新的工作岗位 Prompt Engineer(提示工程师)。
+> 通过上面的例子，我们不难看出 灯神 = 大语言模型(大语言模型有很多，在本教程我们以 ChatGPT 来作为代表)，许下的愿望 = 发送给 ChatGPT 的内容 = Prompt。而最终 ChatGPT 能否很好的完成我们的任务，这都取决于 Prompt 的好坏。
+
 ## 自然语言编程时代[](https://gptpmt.com/#自然语言编程时代)
+
 在招聘网站以 **Prompt** 为关键词搜索就能看到很多岗位，而且薪资都比较高。
+
 ![Boss直聘-Prompt工程师相关岗位](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboss-prompt-1.248578fd.png&w=3840&q=75)
+
 我们以其中一个 40k-60k 的为例，点进去看一下岗位的具体要求，发现其实要求并不高，就是写出更好的 Prompt。只要学完本教程，每个人都能做到。
+
 ![Boss直聘-Prompt工程师相关岗位](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboss-prompt-2.be303049.png&w=3840&q=75)
+
 现在 AI 还处于发展的初期阶段，但 AI 提效的本质还是 输入 + 输出，输入的内容就是我们的 Prompt。过去我们想要做到一些事情，就需要依赖像 Python、Java 等编程语言。这些编程语言首先学习起来就有比较高的门槛，而且还需要丰富的经验才能解决具体的问题。而 Prompt Engineer 完全没有这些问题，因为我们输入给 AI 的 Prompt，都是人类的语言：中文、英文、日文等等。所以 Prompt Engineer 还可以称为：**自然语言编程师**
 随着 AI 时代的发展 Prompt Engineer 一定会成为主流，并且逐渐取代传统(以编程语言写程序的人)的初级程序员。就像今天不再会有人使用 **二进制打孔编程** 一样(那效率太低了)，未来可能也不会再有人使用 Python 或 Java 进行编程了，取而代之的是 自然语言编程。
+
 > 以下内容来自 ChatGPT：
 > 二进制打孔编程是一种古老的计算机编程方式，它使用一种称为"纸带"的介质来表示程序指令。纸带上的每个位置都可以被打孔或未打孔，而每个打孔或未打孔的位置表示一个二进制位（0 或 1）。通过在纸带上打孔的方式，可以编码程序的指令和数据。
 > 在二进制打孔编程中，程序员需要手动在纸带上打孔来表示程序的指令。打孔的位置和模式决定了不同的指令和操作。例如，可以用一系列打孔来表示加载数据、执行算术操作、条件跳转等。
 > 一旦程序的纸带编码完成，它可以被加载到打孔机或计算机中进行执行。打孔机会读取纸带上的打孔模式，并根据它们执行相应的操作。这种编程方式是一种低级的编程形式，需要对硬件细节有很高的了解，并且容易出错。
 > 然而，二进制打孔编程在现代计算机领域已经过时。现代计算机通常使用高级编程语言和汇编语言来编写程序，这些语言提供了更高的抽象级别和更方便的编程方式。而且，现代计算机使用电子存储器而不是纸带来存储和执行程序。
+
 ## 如何成为 Prompt Engineer？[](https://gptpmt.com/#如何成为-prompt-engineer)
+
 就像我们前面所说的，成为 Prompt 工程师 并不需要你掌握什么知识，只要懂得任意一门人类的语言，并且具有一定的创造力，那么你就能通过本教程成为一名非常优秀的 Prompt 工程师。
 或许你对此有些担心，但正如计算器的出现，使得人类即使不了解某个数学公式的原理或推导过程，依然可以准确、快速的获得结果一样。AI 的出现同样可以使人类即使不了解某个学科的知识，甚至不懂任何编程技术，也能够通过 AI 完成各种复杂的任务。
 AI 的发展和普及，会逐渐弱化知识的壁垒，转而更加依赖人类的创造力和想象力，这是 AI 所不具备的。但这并不意味着人类以后就不需要学习了，丰富多样的知识积累能够帮助人类根据有创造力和想象力。
 正如爱因斯坦曾经说过的话：提出一个问题往往比解决一个问题更重要。
 这说明了想象力比知识更重要，因为知识是人类文明过去积累的总和，虽然浩如烟海但总是有限的，而想象力是无限的。未来每一个人，每一家企业都应该从过去重复、固定、繁琐、低效的工作和模式中解脱出来，更好的运用 ChatGPT 这样的 AI 工具。充分发挥人类的创造力和想象力，人类下达正确的指令，AI 完成相应的工作，从而实现生产力的指数级突破。
+
 ## AI 会导致人类变笨吗？[](https://gptpmt.com/#ai-会导致人类变笨吗)
+
 答案是：不会
 相反 AI 只会让人类更聪明，更具有创造力。因为我们不用再去做那些机械式的重复工作，只需要思考要做什么，怎么让 AI 更好的为我们工作就可以了。
 就像计算器的出现使得人类可以不关注已知的知识，而是利用这个工具去更快速的推导更高级的公式，不但没有让人类丧失计算能力，反而使我们在数学领域不断有新的突破。
 有兴趣的可以浏览下这篇文章：[The big idea: will AI make us stupid? (opens in a new tab)](https://www.theguardian.com/books/2023/jun/19/the-big-idea-will-ai-make-us-stupid)
+
 ## 我需要准备什么？[](https://gptpmt.com/#我需要准备什么)
+
 除了一台电脑或者一部手机外，本课程会使用 [ChatGPT (opens in a new tab)](https://chat.openai.com) 来进行教学和演示，因此你需要一个 OpenAI 账号。
 大家如果无法注册或访问 ChatGPT，可以通过一些镜像网站使用，效果是一样的。
 这里是网上搜集到的一些 ChatGPT 镜像站博客，真实性未知，仅供参考：
+
 [gitee: ChatGPT 镜像站汇总 (opens in a new tab)](https://gitee.com/click33/chatgpt---mirror-station-summary)
+
 [掘金: ChatGPT 镜像站汇总 (opens in a new tab)](https://juejin.cn/post/7226974035464192055)
+
 同时大家也可以使用国内优秀的大语言模型，课程中学到的所有知识，在这些大语言模型中也是通用的：
+
 [Kimi (opens in a new tab)](https://kimi.moonshot.cn/)
+
 [豆包 (opens in a new tab)](https://www.doubao.com/)
+
 [文心一言 (opens in a new tab)](https://yiyan.baidu.com/)
-🎉
-现在，让我们踏上 **Prompt Engineer** 的学习之路，开启属于你的未来吧！ 欢迎到 [Github issues (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?labels=feedback) 发表学习心得以及反馈问题 👏🏻
-微信扫码关注公众号，开启专属于你的
-Ai 新纪元
-🎉
-现在关注，获取最新更新通知，免费解锁更多粉丝专属福利～
-![车神大讲堂-微信公众号](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fofficial-wechat.616d90eb.png&w=1920&q=75)
-Last updated on 2024年5月21日
-[先导篇](https://gptpmt.com/preface "先导篇")
-中文
-System
-Copyright © 2023 Luffy Liu
+
+🎉 现在，让我们踏上 **Prompt Engineer** 的学习之路，开启属于你的未来吧！

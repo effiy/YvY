@@ -1,68 +1,23 @@
-# 原始URL: https://gptpmt.com/foundation/json_format
+# 原始 URL: https://gptpmt.com/foundation/json_format
 
 # 抓取时间: 2025-03-30 21:27:51
 
-[GPTPrompt](https://gptpmt.com/)
-`CTRL K`
-[GitHubGitHub (opens in a new tab)](https://github.com/CarGod/gptpmt)
-`CTRL K`
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
+# 让 GPT 输出 JSON 数据：深入理解结构化数据处理
 
+- [什么是 JSON](https://gptpmt.com/foundation/json_format#什么是json)
+- [为什么要使用 JSON](https://gptpmt.com/foundation/json_format#为什么要使用json)
+- [老师的烦恼](https://gptpmt.com/foundation/json_format#老师的烦恼)
+- [如何让 GPT 输出 JSON 格式的数据](https://gptpmt.com/foundation/json_format#如何让gpt输出json格式的数据)
+- [修改前](https://gptpmt.com/foundation/json_format#修改前)
+- [修改后](https://gptpmt.com/foundation/json_format#修改后)
+- [演示](https://gptpmt.com/foundation/json_format#演示)
 
-  * [项目介绍](https://gptpmt.com/)
-  * [先导篇](https://gptpmt.com/preface)
-    * [Hello ChatGPT](https://gptpmt.com/preface/hello)
-    * [什么是Tokens？](https://gptpmt.com/preface/basics_token)
-    * [概率和温度](https://gptpmt.com/preface/basics_probability)
-  * [基础篇](https://gptpmt.com/foundation)
-    * [获得优质输出的六大技巧](https://gptpmt.com/foundation/grammar)
-    * [结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured)
-    * [让GPT输出JSON数据](https://gptpmt.com/foundation/json_format)
-      * [什么是JSON](https://gptpmt.com/foundation/json_format#什么是json)
-      * [为什么要使用JSON](https://gptpmt.com/foundation/json_format#为什么要使用json)
-      * [如何让GPT输出JSON格式的数据](https://gptpmt.com/foundation/json_format#如何让gpt输出json格式的数据)
-  * [进阶篇](https://gptpmt.com/advance)
-    * [善用XML标签](https://gptpmt.com/advance/use_xml)
-    * [思维链提示](https://gptpmt.com/advance/let_think)
-  * [实战篇](https://gptpmt.com/practice)
-  * [关于此项目](https://gptpmt.com/about)
-  * [关于我](https://gptpmt.com/contact)
+## 什么是 JSON[](https://gptpmt.com/foundation/json_format#什么是json)
 
+JSON（JavaScript Object Notation）是一种轻量级的数据交换格式，它易于阅读和编写，同时也易于机器解析和生成。JSON 的主要作用是在不同系统之间传递数据，比如在网页和服务器之间、在应用程序之间等等。
+JSON 数据是以键值对的形式组织的，其中键（key）是字符串，值（value）可以是字符串、数字、布尔值、数组、对象等。这种简单的结构使得 JSON 很容易理解和使用。
+下面是一个简单的 JSON 数据示例：
 
-中文
-System
-On This Page
-  * [什么是JSON](https://gptpmt.com/foundation/json_format#什么是json)
-  * [为什么要使用JSON](https://gptpmt.com/foundation/json_format#为什么要使用json)
-  * [老师的烦恼](https://gptpmt.com/foundation/json_format#老师的烦恼)
-  * [如何让GPT输出JSON格式的数据](https://gptpmt.com/foundation/json_format#如何让gpt输出json格式的数据)
-  * [修改前](https://gptpmt.com/foundation/json_format#修改前)
-  * [修改后](https://gptpmt.com/foundation/json_format#修改后)
-  * [演示](https://gptpmt.com/foundation/json_format#演示)
-
-
-[Question? Give us feedback → (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?title=Feedback%20for%20%E2%80%9C%E8%AE%A9GPT%E8%BE%93%E5%87%BAJSON%E6%95%B0%E6%8D%AE%EF%BC%9A%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E7%BB%93%E6%9E%84%E5%8C%96%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E2%80%9D&labels=feedback)[Edit this page](https://github.com/CarGod/gptpmt/pages/foundation/json_format.zh.mdx)
-[基础篇](https://gptpmt.com/foundation)
-让GPT输出JSON数据
-# 让GPT输出JSON数据：深入理解结构化数据处理
-## 什么是JSON[](https://gptpmt.com/foundation/json_format#什么是json)
-JSON（JavaScript Object Notation）是一种轻量级的数据交换格式，它易于阅读和编写，同时也易于机器解析和生成。JSON的主要作用是在不同系统之间传递数据，比如在网页和服务器之间、在应用程序之间等等。
-JSON数据是以键值对的形式组织的，其中键（key）是字符串，值（value）可以是字符串、数字、布尔值、数组、对象等。这种简单的结构使得JSON很容易理解和使用。
-下面是一个简单的JSON数据示例：
 ```
 {
 "name":"John",
@@ -76,31 +31,38 @@ JSON数据是以键值对的形式组织的，其中键（key）是字符串，�
 }
 ```
 
-这个JSON数据表示一个人的信息，包括姓名（name）、年龄（age）、是否是学生（isStudent）、成绩（grades）和地址（address）。其中，姓名是一个字符串，年龄是一个数字，是否是学生是一个布尔值，成绩是一个数组，地址是一个对象，包含城市和邮政编码两个属性。
-JSON的使用具有以下几个优点：
-  1. **易于阅读和编写：** JSON使用简洁清晰的文本格式，易于人类理解和书写，有助于减少错误。
-  2. **跨平台兼容性：** JSON是一种与编程语言无关的格式，几乎所有现代编程语言都支持JSON的解析和生成，因此可以在不同平台和系统之间轻松地交换数据。
-  3. **数据结构灵活：** JSON支持复杂的数据结构，包括嵌套对象和数组，可以很好地表示各种类型的数据。
-  4. **网络传输效率高：** JSON数据体积较小，传输速度快，适合在网络上进行数据交换。
+这个 JSON 数据表示一个人的信息，包括姓名（name）、年龄（age）、是否是学生（isStudent）、成绩（grades）和地址（address）。其中，姓名是一个字符串，年龄是一个数字，是否是学生是一个布尔值，成绩是一个数组，地址是一个对象，包含城市和邮政编码两个属性。
+JSON 的使用具有以下几个优点：
 
+1. **易于阅读和编写：** JSON 使用简洁清晰的文本格式，易于人类理解和书写，有助于减少错误。
+2. **跨平台兼容性：** JSON 是一种与编程语言无关的格式，几乎所有现代编程语言都支持 JSON 的解析和生成，因此可以在不同平台和系统之间轻松地交换数据。
+3. **数据结构灵活：** JSON 支持复杂的数据结构，包括嵌套对象和数组，可以很好地表示各种类型的数据。
+4. **网络传输效率高：** JSON 数据体积较小，传输速度快，适合在网络上进行数据交换。
 
-总的来说，JSON是一种简单、轻量级、易于使用的数据交换格式，广泛应用于Web开发、移动应用开发、数据接口传输等领域，是现代软件开发中不可或缺的重要工具。
-## 为什么要使用JSON[](https://gptpmt.com/foundation/json_format#为什么要使用json)
-从上面的介绍中，我们不难看出，JSON是一种非常简洁且通用的结构化数据格式。广泛应用于所有的编程语言中，但是为什么我们要使用JSON，或者说一定要使用JSON呢？
+总的来说，JSON 是一种简单、轻量级、易于使用的数据交换格式，广泛应用于 Web 开发、移动应用开发、数据接口传输等领域，是现代软件开发中不可或缺的重要工具。
+
+## 为什么要使用 JSON[](https://gptpmt.com/foundation/json_format#为什么要使用json)
+
+从上面的介绍中，我们不难看出，JSON 是一种非常简洁且通用的结构化数据格式。广泛应用于所有的编程语言中，但是为什么我们要使用 JSON，或者说一定要使用 JSON 呢？
+
 ### 老师的烦恼[](https://gptpmt.com/foundation/json_format#老师的烦恼)
-先来看一个举个例子，假如我现在是一位小学老师，开学第一天让班上的小朋友写一段个人介绍，他们写完以后我想要把这个数据录入到班级的一个学生管理系统里面。每个小朋友填写的信息肯定是不一样的，每个人语言的表述方式也是不一样的，传统的方式很难获取到想要的内容，这时候我们就可以使用GPT来帮助我们提取这些信息。
-示例1
+
+先来看一个举个例子，假如我现在是一位小学老师，开学第一天让班上的小朋友写一段个人介绍，他们写完以后我想要把这个数据录入到班级的一个学生管理系统里面。每个小朋友填写的信息肯定是不一样的，每个人语言的表述方式也是不一样的，传统的方式很难获取到想要的内容，这时候我们就可以使用 GPT 来帮助我们提取这些信息。
+示例 1
+
 ```
 我叫张三，今年9岁了，我的家住在幸福小区，我的妈妈是老师，我的爸爸是医生。我喜欢画画、唱歌。
 ```
 
-示例2
+示例 2
+
 ```
 我是小美，8岁，我住在梧桐花园，我最喜欢跳舞，爸爸很忙，每天都在抓坏人，妈妈在家照顾我。
 ```
 
-通过上节课学到的内容，我们简单写了一个Prompt：
+通过上节课学到的内容，我们简单写了一个 Prompt：
 Prompt
+
 ```
 # Role
 学生信息提取器
@@ -123,60 +85,65 @@ Prompt
 ```
 
 输入上面的示例信息，就可以获得我们想要的结果：
-ChatGPT - 示例1
+ChatGPT - 示例 1
+
 ```
-姓名：张三 
-年龄：9岁 
-父亲工作：医生 
-母亲工作：老师 
-家庭住址：幸福小区 
+姓名：张三
+年龄：9岁
+父亲工作：医生
+母亲工作：老师
+家庭住址：幸福小区
 爱好：画画、唱歌
 ```
 
-ChatGPT - 示例2
+ChatGPT - 示例 2
+
 ```
-姓名：小美 
-年龄：8岁 
-父亲工作：警察 
-母亲工作：家庭主妇 
-家庭住址：梧桐花园 
+姓名：小美
+年龄：8岁
+父亲工作：警察
+母亲工作：家庭主妇
+家庭住址：梧桐花园
 爱好：跳舞
 ```
 
-这么看好像没问题，但需要思考的是，假如我们需要把这些数据录入到学生管理系统该怎么办？如果只是这两个学生我们可以通过手动来录入，如果是100个学生呢？这个老师怕是要累坏了。
+这么看好像没问题，但需要思考的是，假如我们需要把这些数据录入到学生管理系统该怎么办？如果只是这两个学生我们可以通过手动来录入，如果是 100 个学生呢？这个老师怕是要累坏了。
 这时候我们编写一个程序，批量把这些数据导入到学生管理系统中，这时候如果是上面这种格式，我们很难提取这些对应关系。
 因为对于计算机来说，我们导入的数据是一个多行文本，假如我想把学生姓名取出来，那就是：
 文本的第一行
 从 "姓名：" 开头的字符串后面截取到这一行的末尾
 其他的也是同样的道理，先不说这种方法的效率和出错的概率，假如我们现在要新增一个学生性别的信息：
+
 ```
-姓名：小美 
+姓名：小美
 性别：女
-年龄：8岁 
-父亲工作：警察 
-母亲工作：家庭主妇 
-家庭住址：梧桐花园 
+年龄：8岁
+父亲工作：警察
+母亲工作：家庭主妇
+家庭住址：梧桐花园
 爱好：跳舞
 ```
 
 这时候我们代码里原来第二行应该是取年龄的，现在变成了性别，这时候我们的代码就会报错。
 那有的同学可能会思考，我们直接用 `年龄：` 来判断年龄不就好了，不用第几行。
 那假如我们的数据要求再加一个父母的年龄：
+
 ```
-姓名：小美 
+姓名：小美
 性别：女
-年龄：8岁 
-父亲工作：警察 
+年龄：8岁
+父亲工作：警察
 年龄：36岁
-母亲工作：家庭主妇 
+母亲工作：家庭主妇
 年龄：34岁
-家庭住址：梧桐花园 
+家庭住址：梧桐花园
 爱好：跳舞
 ```
 
-显然是不行的，根本的原因就是这个数据没有结构，面对简单的数据或许还可以，但是面对复杂的数据时就没办法了，必须要使用JSON格式。
-JSON的好处就是所有的编程语言都支持，并且提供了方便的工具去操作它，而且无论多么复杂的结构关系，JSON都可以表示出来。
-例如上面的案例，JSON就可以表示为：
+显然是不行的，根本的原因就是这个数据没有结构，面对简单的数据或许还可以，但是面对复杂的数据时就没办法了，必须要使用 JSON 格式。
+JSON 的好处就是所有的编程语言都支持，并且提供了方便的工具去操作它，而且无论多么复杂的结构关系，JSON 都可以表示出来。
+例如上面的案例，JSON 就可以表示为：
+
 ```
 {
 "name":"小美",
@@ -194,12 +161,17 @@ JSON的好处就是所有的编程语言都支持，并且提供了方便的工�
 }
 ```
 
-所以，很多时候我们需要GPT直接返回给我们JSON格式的数据，这种在实际的工作场景或者更复杂的领域中，是非常常见的操作。
-这也是我们想要使用AI解决更复杂问题的基础。
-## 如何让GPT输出JSON格式的数据[](https://gptpmt.com/foundation/json_format#如何让gpt输出json格式的数据)
-其实很简单，我们只需要对Prompt进行一些简单的修改即可：
+所以，很多时候我们需要 GPT 直接返回给我们 JSON 格式的数据，这种在实际的工作场景或者更复杂的领域中，是非常常见的操作。
+这也是我们想要使用 AI 解决更复杂问题的基础。
+
+## 如何让 GPT 输出 JSON 格式的数据[](https://gptpmt.com/foundation/json_format#如何让gpt输出json格式的数据)
+
+其实很简单，我们只需要对 Prompt 进行一些简单的修改即可：
+
 ### 修改前[](https://gptpmt.com/foundation/json_format#修改前)
+
 Prompt
+
 ```
 # Role
 学生信息提取器
@@ -222,7 +194,9 @@ Prompt
 ```
 
 ### 修改后[](https://gptpmt.com/foundation/json_format#修改后)
+
 Prompt
+
 ```
 # Role
 学生信息提取器
@@ -242,12 +216,15 @@ Prompt
 ```
 
 ### 演示[](https://gptpmt.com/foundation/json_format#演示)
+
 示例
+
 ```
 我叫张三，今年9岁了，我的家住在幸福小区，我的妈妈是老师，我的爸爸是医生。我喜欢画画、唱歌。
 ```
 
 ChatGPT
+
 ```
 {
  "name": "张三",
@@ -260,15 +237,3 @@ ChatGPT
 ```
 
 ![GPT输出JSON数据](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjson_format-1.7abb2070.png&w=1920&q=75)
-💬
-恭喜学完本章节，你已经了解了如何使用GPT输出JSON格式的数据，具备解决更复杂问题的基础了。如果你有任何疑问或想要跟大家进行交流，欢迎到 [Github issues (opens in a new tab)](https://github.com/CarGod/gptpmt/issues/new?labels=feedback) 发表学习心得以及反馈问题 👏🏻
-微信扫码关注公众号，开启专属于你的
-Ai 新纪元
-🎉
-现在关注，获取最新更新通知，免费解锁更多粉丝专属福利～
-![车神大讲堂-微信公众号](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fofficial-wechat.616d90eb.png&w=1920&q=75)
-Last updated on 2024年5月21日
-[结构化Prompt模板与技巧](https://gptpmt.com/foundation/structured "结构化Prompt模板与技巧")[进阶篇](https://gptpmt.com/advance "进阶篇")
-中文
-System
-Copyright © 2023 Luffy Liu
