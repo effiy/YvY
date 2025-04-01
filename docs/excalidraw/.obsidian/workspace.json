@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "8310412fb2c5553f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccf9f854c96a8df3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "114f377623d9a7ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1293f0a3106a26da",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac0d455e0ca93120",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "130c32f266a63207",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fb0f96dc8c49372a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ed77db975113835",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c0684597e957dd66",
+    "type": "split",
+    "children": [
+      {
+        "id": "50c619a7e5b99ffd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d1119ee35282472",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "关于视觉思维工作坊.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 关于视觉思维工作坊"
+            }
+          },
+          {
+            "id": "6aacee3d8fc129f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "关于视觉思维工作坊.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 关于视觉思维工作坊"
+            }
+          },
+          {
+            "id": "6f04243d8c0fc0f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "de59dec1c30fa80f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "关于视觉思维工作坊.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 关于视觉思维工作坊"
+            }
+          },
+          {
+            "id": "b3cc31957254bb16",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "b3cc31957254bb16",
+  "lastOpenFiles": [
+    "index.md",
+    "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md",
+    "Excalidraw",
+    "关于视觉思维工作坊.md"
+  ]
+}

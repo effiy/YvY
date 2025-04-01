@@ -1,0 +1,132 @@
+{
+  "cover_image": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2886778013.jpg",
+  "translated_name": "Hidden Blade",
+  "original_name": "无名",
+  "year": 2023,
+  "country": "中国大陆",
+  "genre": [
+    "剧情",
+    "悬疑",
+    "历史"
+  ],
+  "language": "普通话/沪语/粤语/日语",
+  "subtitle": "中文",
+  "release_date": "2023-01-22(中国大陆)",
+  "imdb_rating": null,
+  "douban_rating": 6.8,
+  "duration": "128分钟",
+  "director": [
+    "程耳 Er Cheng"
+  ],
+  "screenwriter": [
+    "程耳 Er Cheng"
+  ],
+  "actors": [
+    {
+      "name": "梁朝伟",
+      "role": "Tony Leung Chiu Wai"
+    },
+    {
+      "name": "王一博",
+      "role": "Yibo Wang"
+    },
+    {
+      "name": "周迅",
+      "role": "Xun Zhou"
+    },
+    {
+      "name": "黄磊",
+      "role": "Lei Huang"
+    },
+    {
+      "name": "森博之",
+      "role": "Hiroyuki Mori"
+    },
+    {
+      "name": "大鹏",
+      "role": "Chengpeng Dong"
+    },
+    {
+      "name": "王传君",
+      "role": "Chuanjun Wang"
+    },
+    {
+      "name": "江疏影",
+      "role": "Shuying Jiang"
+    },
+    {
+      "name": "张婧仪",
+      "role": "Joy Zhang"
+    },
+    {
+      "name": "周生昊",
+      "role": "Shenghao Zhou"
+    },
+    {
+      "name": "董易",
+      "role": "Y Dong"
+    },
+    {
+      "name": "赵左",
+      "role": "Zuo Zhao"
+    },
+    {
+      "name": "高曙光",
+      "role": "Shuguang Gao"
+    },
+    {
+      "name": "美浓轮泰史",
+      "role": "Mino Wataishi"
+    },
+    {
+      "name": "金子浩拓",
+      "role": "Kaneko Kotaku"
+    },
+    {
+      "name": "三浦研一",
+      "role": "Kenichi Miura"
+    },
+    {
+      "name": "吴映",
+      "role": "Ying Wu"
+    },
+    {
+      "name": "李欣",
+      "role": "Xin Li"
+    },
+    {
+      "name": "徐婧荧",
+      "role": "Jingying Xu"
+    },
+    {
+      "name": "佐佐木智大",
+      "role": "Sasaki TomoHiro"
+    },
+    {
+      "name": "木村顺傑",
+      "role": "Kimura Junketsu"
+    },
+    {
+      "name": "川上和文",
+      "role": "Kaneko Kotaku"
+    }
+  ],
+  "description": "影片讲述了20世纪40年代,中国共产党通过错综复杂的敌后情报系统,策反敌人,获取情报,诛杀汉奸,建立更广泛的统一战线,直至抗战胜利的前夜的故事。",
+  "download_links": [
+    {
+      "type": "magnet",
+      "url": "magnet:?xt=urn:btih:164973a1961eb8b2c5cbf0d8ee2f065be1a576d2&dn=%e9%98%b3%e5%85%89%e7%94%b5%e5%bd%b1dygod.org.%e6%97%a0%e5%90%8d.2023.BD.1080P.%e5%9b%bd%e8%af%ad%e4%b8%ad%e5%ad%97.mkv&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce"
+    }
+  ],
+  "player_software": [
+    {
+      "name": "PotPlayer",
+      "download_url": "https://dygod.org/js/player.htm"
+    },
+    {
+      "name": "qBittorrent",
+      "download_url": "https://dygod.org/js/bt.htm"
+    }
+  ],
+  "source_file": "无名.md"
+}
