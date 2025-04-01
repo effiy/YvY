@@ -8,6 +8,7 @@
     "dytt",
     "Embedder",
     "embedders",
+    "Excali",
     "gitee",
     "imdb",
     "Kimi",
@@ -16,7 +17,10 @@
     "nomic",
     "Ollama",
     "qwen",
+    "Readwise",
     "Sandboxed",
+    "Viczián",
+    "Zsolt",
     "Zsolt's"
   ]
 }

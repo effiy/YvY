@@ -44,6 +44,7 @@ Prompt Engineering(提示工程) 是指在使用大语言模型时，编写**高
 
 在招聘网站以 **Prompt** 为关键词搜索就能看到很多岗位，而且薪资都比较高。
 
+
 ![Boss直聘-Prompt工程师相关岗位](https://gptpmt.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fboss-prompt-1.248578fd.png&w=3840&q=75)
 
 我们以其中一个 40k-60k 的为例，点进去看一下岗位的具体要求，发现其实要求并不高，就是写出更好的 Prompt。只要学完本教程，每个人都能做到。

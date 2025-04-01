@@ -242,8 +242,10 @@ class BlogCrawler:
 async def main():
     # 示例URL列表
     urls = [
-        "https://hub.baai.ac.cn/",
-        "https://aibard123.com/digest/",
+        "https://excalidraw-obsidian.online/blog/archive"
+        # "https://www.visual-thinking-workshop.com/",
+        # "https://hub.baai.ac.cn/",
+        # "https://aibard123.com/digest/",
     ]
     
     crawler = BlogCrawler()
