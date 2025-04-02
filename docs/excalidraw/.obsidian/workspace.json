@@ -11,14 +11,26 @@
             "id": "114f377623d9a7ff",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-04-01 22.54.34.excalidraw"
+            }
+          },
+          {
+            "id": "3845fbebe693fd4b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "书籍摘要/你的问题是什么.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "你的问题是什么"
             }
           }
         ]
@@ -166,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,11 +192,44 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b3cc31957254bb16",
+  "active": "130c32f266a63207",
   "lastOpenFiles": [
-    "index.md",
+    "思维工具/是什么决定了你的解读.md",
     "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md",
-    "Excalidraw",
+    "imgs/记笔记.svg",
+    "记笔记",
+    "书籍摘要/你的问题是什么.md",
+    "书籍摘要/清单宣言.md",
+    "书籍摘要/书籍快照 - 原则.md",
+    "书籍摘要/成功成为管理顾问.md",
+    "书籍摘要/值的分享的故事.md",
+    "书籍摘要/渐进式的书籍摘要.md",
+    "思维工具/有效思维的模式语言.md",
+    "书籍摘要/用 Obsidian 素描一本书.md",
+    "书籍摘要",
+    "imgs",
+    "思维工具/爱德华·德·波诺的思维算法",
+    "思维工具.md",
+    "思维工具",
+    "imgs/books.png",
+    "libs/storytelling.excalidrawlib",
+    "libs/stick-figures.excalidrawlib",
+    "思维工具/控制您的优先事项的实践练习.md",
+    "思维工具/TOSCA：一种用于构建问题的算法.md",
+    "思维工具/设定您将实现的年度目标的秘诀.md",
+    "思维工具/清单习惯的力量.md",
+    "思维工具/25分之5规则.md",
+    "思维工具/解决问题-您可能会忘记提出的问题.md",
+    "思维工具/在工作中与团队保持联系的模式.md",
+    "思维工具/高效思考和沟通的生活小窍门.md",
+    "思维工具/我们的谈话方式如何改变我们的生活方式.md",
+    "思维工具/爱德华·德·波诺的思维算法/四个简单有趣的创造性思维练习.md",
+    "思维工具/爱德华·德·波诺的思维算法/横向思维和创造力.md",
+    "思维工具/爱德华·德·波诺的思维算法/处理分歧.md",
+    "libs/computers.excalidrawlib",
+    "libs",
+    "untitled folder",
+    "index.md",
     "关于视觉思维工作坊.md"
   ]
 }
