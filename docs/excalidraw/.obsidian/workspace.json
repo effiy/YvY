@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "书籍摘要/你的问题是什么.md",
+                "file": "关于视觉思维工作坊.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "你的问题是什么"
+              "title": "关于视觉思维工作坊"
             }
           }
         ]
@@ -192,15 +192,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "130c32f266a63207",
+  "active": "114f377623d9a7ff",
   "lastOpenFiles": [
-    "思维工具/是什么决定了你的解读.md",
+    "blogs.png",
+    "imgs/blogs.png",
     "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md",
+    "关于视觉思维工作坊.md",
+    "imgs/blog.png",
+    "imgs/YvYBlog.png",
+    "书籍摘要/你的问题是什么.md",
+    "书籍摘要/书籍快照 - 原则.md",
+    "思维工具/是什么决定了你的解读.md",
     "imgs/记笔记.svg",
     "记笔记",
-    "书籍摘要/你的问题是什么.md",
     "书籍摘要/清单宣言.md",
-    "书籍摘要/书籍快照 - 原则.md",
     "书籍摘要/成功成为管理顾问.md",
     "书籍摘要/值的分享的故事.md",
     "书籍摘要/渐进式的书籍摘要.md",
@@ -229,7 +234,6 @@
     "libs/computers.excalidrawlib",
     "libs",
     "untitled folder",
-    "index.md",
-    "关于视觉思维工作坊.md"
+    "index.md"
   ]
 }
