@@ -11,26 +11,24 @@
             "id": "114f377623d9a7ff",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md"
+                "file": "imgs/weekStrategy.png"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-01 22.54.34.excalidraw"
+              "icon": "lucide-image",
+              "title": "weekStrategy"
             }
           },
           {
             "id": "5f133573ec2fcd8a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "视觉思维/制定十周策略.md",
-                "mode": "source",
-                "source": false
+                "file": "imgs/weekStrategy.png"
               },
-              "icon": "lucide-file",
-              "title": "制定十周策略"
+              "icon": "lucide-image",
+              "title": "weekStrategy"
             }
           },
           {
@@ -47,8 +45,7 @@
               "title": "关于视觉思维工作坊"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,16 +204,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f133573ec2fcd8a",
+  "active": "130c32f266a63207",
   "lastOpenFiles": [
-    "关于视觉思维工作坊.md",
+    "Excalidraw/易呈亮的博客文章归档 (2020-2025).excalidraw.md",
+    "imgs/weekStrategy.png",
+    "imgs/DIKW.png",
     "视觉思维/制定十周策略.md",
-    "Pasted image 20250404092720.png",
+    "关于视觉思维工作坊.md",
     "视觉思维",
-    "Excalidraw/Drawing 2025-04-01 22.54.34.excalidraw.md",
     "审视/安全程度如何.md",
     "审视",
-    "Pasted Image 20250404092324_610.png",
     "libs/data-viz.excalidrawlib",
     "blogs.png",
     "imgs/blogs.png",
